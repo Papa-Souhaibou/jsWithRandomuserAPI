@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .active {
+            background-color: #0275d8;
+        }
+        input[type="file"] {
+            max-width: 140px;
+        }
+    </style>
+</head>
+  <body>
+      <div class="container-fluid ml-2">
+        <div class="row justify-content-center mt-5">
+            <h3 class="font-weight-bold">Live Coding Sonatel Academy</h3>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="button" name="" id="addUser" class="btn btn-primary btn-lg btn-block mt-2">Ajouter un Utilisateur</button>
+                <button type="button" name="" id="doublePrice" class="btn btn-success btn-lg btn-block">Doubler le Montant</button>
+                <button type="button" name="" id="displayMillionnaire" class="btn btn-muted btn-lg btn-block border border-secondary">Afficher les Millionnaires</button>
+                <button type="button" name="" id="sortMillionnaire" class="btn btn-secondary btn-lg btn-block">Trier par les plus riches</button>
+                <button type="button" name="" id="calculateTotal" class="btn btn-danger btn-lg btn-block">Calculer le Total</button>
+            </div>
+            <div class="col-7 mt-2 border-left border-dark">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Image</th>
+                            <th>Nom Et Prenom</th>
+                            <th>Nationnalite</th>
+                            <th>Telephone</th>
+                            <th>Richesse</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <div id="pagination" class="text-center">
+                    
+                </div>
+            </div>
+            <div class="col-2 mt-4">
+               <span class="font-weight-bold">Total :</span><span id="printTotal" class="p-3 border border-danger rounded"></span>
+            </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
